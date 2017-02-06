@@ -36,7 +36,8 @@ Created by [Your Name](http://your-website.com)
 
 ## Backend dist config for database connection and others  
 
-```backend/config/config-dist.yml```  
+backend/config/config-dist.yml  
+
 Copy this file on your server to ```backend/config/config.yml``` and fill out with valid data
 
 ## nginx config for backend
