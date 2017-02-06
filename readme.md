@@ -35,10 +35,12 @@ How was the app created? Anything worth sharing about the process of creating th
 Created by [Your Name](http://your-website.com)
 
 ## Backend dist config for database connection and others  
-```backend/config/config-dist.yml```
+
+```backend/config/config-dist.yml```  
 Copy this file on your server to ```backend/config/config.yml``` and fill out with valid data
 
 ## nginx config for backend
+
 ```
 server {
     server_name todo-api.loc www.todo-api.loc;
@@ -91,7 +93,9 @@ server {
     CustomLog "path-to-log-folder/logs/todo-api-access.log" common
 </VirtualHost>
 ```
+
 ## commands to create database tables
+
 ```
 Windows:
 cd backend
@@ -103,7 +107,9 @@ Doctrine uses Proxies to connect to the database.
 sh vendor/bin/doctrine orm:generate-proxies
 
 ```
+
 ## Api description and database scheme  
+
 https://docs.google.com/document/d/1cVA9uJvZF3PI8_xdE1zyH6ihseFTRN_Z_0zkBvwH9Z0/edit?usp=sharing  
 https://repository.genmymodel.com/pronata/todo-list
 
