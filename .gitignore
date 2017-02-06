@@ -1,0 +1,4 @@
+node_modules
+.idea
+/backend/vendor/
+/backend/config/config.yml

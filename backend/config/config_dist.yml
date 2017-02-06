@@ -1,0 +1,7 @@
+todo-api-config:
+    database:
+        dbname: todo-app-db
+        user: todo-app-admin
+        password: password
+        host: localhost
+        driver: pdo_mysql
